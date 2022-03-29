@@ -6,6 +6,7 @@ import hashlib
 import requests
 import getpass
 
+
 # all banner from banner.py
 os.system("cls") # change this to clear in linux and cls in windows
 print("""
@@ -76,6 +77,14 @@ def password_breached():
 	gotomain = input("Please Press Enter or Return To go back to main ")
 	main()
 
+# Now checking system's security auditing 
+def system_security():
+	print("[+] Checking your System's Security ..")
+
+
+
+
+
 def main():
 	os.system("cls")
 	choose = input("""
@@ -93,6 +102,8 @@ def main():
 	if choose == "1":
 		password_Security()
 		password_breached()
+	elif choose == "2":
+		system_security()
 	else:
 		exit()
 
