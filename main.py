@@ -79,7 +79,33 @@ def password_breached():
 
 # Now checking system's security auditing 
 def system_security():
-	print("[+] Checking your System's Security ..")
+    print("[+] Checking your System's Security ..")
+    print("[-] Use lower case for the operating system like windows, linux and macos")
+    system_os = input("Enter Your Operating system:- ")
+    print("[+] Checking the Operating security for " + system_os)
+    user_os = ['windows','linux','macos']
+    print("[+] These are the operating System Security")
+    if user_os =='windows':
+        print("[+] Start Checking windows os securiy and vulnerability")
+
+        # Put all the cmd here and logic to check the version is vulnerabiltity
+
+    elif user_os =='linux':
+        print("[+] Starting to check the liunx system security and vulnerability")
+
+        # Pull all the bash scripting here to check the system vulnerability 
+
+
+    elif user_os == 'macos':
+        print("[+] Starting to check the Macos system security and vulnerabiltiy")
+
+        # Put all code and bash scripting for the macos to check the system vulnerability
+
+    else:
+        pass
+
+
+    
 
 
 
